@@ -15,8 +15,8 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'
+        dotnet-version: '6.0.x'
     - name: Restore dependencies
       uses: dotnet/restore@v4
     - name: Build
-      uses: dotnet build --no-restore --configuration Release
+      uses: dotnet/build@v4 --no-restore --configuration Release
