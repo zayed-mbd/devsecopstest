@@ -1,5 +1,5 @@
 ﻿
-Console.WriteLine("Add result:" + add(2, 3));
+Console.WriteLine("Addition result:" + add(3, 3));
 
 static int add(int x, int y)
     {
